@@ -39,7 +39,13 @@ personal_great("Ano")
 def double(number):
                    print(number*2)
                    
-double(6)        
+double(6)  
+
+#body_mass_index
+def bmi(weight, height):
+      index = weight/(height*height)
+      print(index)
+bmi(60,1.7)      
 
 print("Thank you! ")
 
